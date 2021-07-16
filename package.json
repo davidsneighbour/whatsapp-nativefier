@@ -1,0 +1,27 @@
+{
+    "name": "whatsapp-nativefier",
+    "version": "1.0.0",
+    "description": "creates an app container for WhatsApp",
+    "main": "index.js",
+    "scripts": {
+        "build": "nativefier --icon whatsapp.png --name 'WhatsApp' --upgrade --background-color #232323 --single-instance --tray start-in-tray  'web.whatsapp.com'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/davidsneighbour/whatsapp-nativier.git"
+    },
+    "keywords": [
+        "whatsapp",
+        "electron",
+        "nativier"
+    ],
+    "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/davidsneighbour/whatsapp-nativier/issues"
+    },
+    "homepage": "https://github.com/davidsneighbour/whatsapp-nativier#readme",
+    "dependencies": {
+        "nativefier": "^44.0.7"
+    }
+}
