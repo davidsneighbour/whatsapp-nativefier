@@ -17,7 +17,7 @@ var options = {
     //height: 800,
     showMenuBar: false,
     fastQuit: false,
-    //userAgent: 'Mozilla ...', // will infer a default for your current system
+    userAgent: 'firefox',
     //ignoreCertificate: false,
     //ignoreGpuBlacklist: false,
     //enableEs3Apis: false,
