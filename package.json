@@ -22,6 +22,6 @@
     },
     "homepage": "https://github.com/davidsneighbour/whatsapp-nativier#readme",
     "dependencies": {
-        "nativefier": "^44.0.7"
+        "nativefier": "^52.0.0"
     }
 }
